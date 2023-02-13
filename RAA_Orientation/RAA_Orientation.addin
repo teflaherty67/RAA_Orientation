@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAA_Orientation</Text>
+    <Description>Some description for RAA_Orientation</Description>
+    <Assembly>RAA_Orientation.dll</Assembly>
+    <FullClassName>RAA_Orientation.Command</FullClassName>
+    <ClientId>e9ca4728-110c-4f92-9d07-e00babf5a914</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_Orientation</Name>
+    <Assembly>RAA_Orientation.dll</Assembly>
+    <FullClassName>RAA_Orientation.App</FullClassName>
+    <ClientId>2af769ea-6494-42f7-9938-c38d67e029b6</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
