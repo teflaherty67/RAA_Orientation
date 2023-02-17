@@ -19,9 +19,9 @@ namespace RAA_Orientation
     /// <summary>
     /// Interaction logic for Window.xaml
     /// </summary>
-    public partial class MyForm : Window
+    public partial class Form1 : Window
     {
-        public MyForm()
+        public Form1()
         {
             InitializeComponent();
         }

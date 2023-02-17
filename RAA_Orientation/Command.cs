@@ -29,7 +29,7 @@ namespace RAA_Orientation
             // put any code needed for the form here
 
             // open form
-            MyForm currentForm = new MyForm()
+            Form1 currentForm = new Form1()
             {
                 Width = 800,
                 Height = 450,

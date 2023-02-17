@@ -67,8 +67,8 @@
     <Compile Include="Utils\CommandAvailability.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Utils.cs" />
-    <Compile Include="Forms\MyForm.xaml.cs">
-      <DependentUpon>MyForm.xaml</DependentUpon>
+    <Compile Include="Forms\Form1.xaml.cs">
+      <DependentUpon>Form1.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -83,7 +83,7 @@
     <EmbeddedResource Include="Resources\Blue_16.png" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Forms\MyForm.xaml">
+    <Page Include="Forms\Form1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
