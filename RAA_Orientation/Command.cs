@@ -31,8 +31,8 @@ namespace RAA_Orientation
             // open form
             Form1 currentForm = new Form1()
             {
-                Width = 800,
-                Height = 450,
+                Width = 400,
+                Height = 250,
                 WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen,
                 Topmost = true,
             };

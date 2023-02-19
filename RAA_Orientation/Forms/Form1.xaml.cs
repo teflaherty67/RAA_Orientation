@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autodesk.Revit.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,17 @@ namespace RAA_Orientation
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnOK_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            TaskDialog.Show("Hello World", "Hello " + tbxName.Text + ". Welcome to RAA Level 2!");
+        }
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
